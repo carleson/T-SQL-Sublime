@@ -63,7 +63,8 @@
         "COMMIT",
         { "trigger": "commit", "contents": "COMMIT" },
 // Table Expressions
-        { "trigger": "drop table(name)", "contents": "drop table(${1:name})" },
+//       { "trigger": "drop table(name)", "contents": "drop table(${1:name})" },
+        { "trigger": "drop table(name)", "contents": "DROP TABLE(${1:'name'})" },
 // partials
         { "trigger": "SELECT * FROM schema.table AS t", "contents": "SELECT ${1:*} FROM ${2:schema}.${3:table} AS ${4:t}" },
         { "trigger": "select * from schema.table as t", "contents": "SELECT ${1:*} FROM ${2:schema}.${3:table} AS ${4:t}" },
