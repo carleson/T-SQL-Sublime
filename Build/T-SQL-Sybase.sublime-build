@@ -1,0 +1,7 @@
+{
+  "cmd": ["isql", "-S", "SD1DEV", "-D", "sbnmain", "-U", "devjoc", "-P", "123456", "-i", "$file", "-w", "2000"],
+  "file_regex": "sql$", 
+  "selector": "source.sql", 
+  "working_dir": "C:/Users/johcar/workspace/sbnsql"
+}
+
