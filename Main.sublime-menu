@@ -1,0 +1,55 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "T-SQL",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/T-SQL/T-SQL (Windows).sublime-settings", "platform": "Windows"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/T-SQL/T-SQL (Linux).sublime-settings", "platform": "Linux"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/T-SQL/T-SQL (Osx).sublime-settings", "platform": "OSX"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/T-SQL (Windows).sublime-settings", "platform": "Windows"},
+                                "caption": "Settings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/T-SQL (Linux).sublime-settings", "platform": "Linux"},
+                                "caption": "Settings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/T-SQL (Osx).sublime-settings", "platform": "OSX"},
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
